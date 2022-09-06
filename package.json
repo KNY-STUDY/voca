@@ -1,6 +1,6 @@
 {
   "name": "voca",
-  "categories": "https://kny-study.github.io/voca/",
+  "homepage": "https://kny-study.github.io/voca/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
