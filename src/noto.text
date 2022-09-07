@@ -1,4 +1,4 @@
-🔷check!🔶
+🔷check memo🔶
 
 "react": "^17.0.1",
 "react-dom": "^17.0.1",
@@ -9,7 +9,6 @@ react, react-router-dom 버전 유의
 react-router-dom v6 부터 
 Switch => Routes
 Component => element
-
 
 
 
