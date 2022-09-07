@@ -6,11 +6,18 @@
 "react-scripts": "5.0.1",
 
 react, react-router-dom 버전 유의
-react-router-dom v6 부터 
+react-router-dom v6 (react v18)부터 
 Switch => Routes
 Component => element
 
 
+p 태그 return
 
+화살표함수
+() => {};
 
+event 처리
 
+state 컴포넌트가 가지고 있는 속성 값
+
+useState : 배열반환, 
