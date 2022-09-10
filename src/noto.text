@@ -20,4 +20,18 @@ event 처리
 
 state 컴포넌트가 가지고 있는 속성 값
 
-useState : 배열반환, 
+useState :상태값 관리, import, 배열반환(배열구조분해), 
+
+구조분해할당 : 배열을 순서대로 할당
+배열구조분해 : 순서
+객체구조분해 : 새로운 변수 이름으로 할당 가능, 순서를 신경쓰지 않아도 된다
+=> ex. let user = {name: "mike", age: 30}
+       let {name: userName, age: uerAge} = user;
+       console.log(userName); // 'mike'
+       console.log(userAge); // 30
+       
+
+
+props (property) 속성
+
+component(부모) -> component(자식) 다양한 속성을 정리하여 보낼 수 있다.

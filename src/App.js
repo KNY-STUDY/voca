@@ -2,11 +2,12 @@ import Day from "./component/Day";
 import DayList from "./component/DayList";
 import Header from "./component/Header";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import EmptyPage from "./component/EmptyPage";
 
 
 function App() {
   return (
-    <BrowserRouter basename="voca">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className='App'>
         <Header />
         <Switch>
@@ -15,6 +16,9 @@ function App() {
           </Route>
           <Route path="/day/:day">
             <Day />
+          </Route>
+          <Route>
+            <EmptyPage />
           </Route>
        </Switch>
       </div>
