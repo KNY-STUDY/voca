@@ -29,9 +29,17 @@ useState :상태값 관리, import, 배열반환(배열구조분해),
        let {name: userName, age: uerAge} = user;
        console.log(userName); // 'mike'
        console.log(userAge); // 30
-       
+
 
 
 props (property) 속성
 
 component(부모) -> component(자식) 다양한 속성을 정리하여 보낼 수 있다.
+
+
+REST API => fetch method
+
+Create : POST
+Read : GET
+Update : PUT
+Delete : DELETE
