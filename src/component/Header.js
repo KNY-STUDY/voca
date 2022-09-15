@@ -9,6 +9,7 @@ export default function Header() {
             <div className="menu">
                 <Link to="/create_word" className="link">단어추가</Link>
                 <Link to="/create_day" className="link">Day추가</Link>
+                <Link to="/" className="link">Day삭제</Link>
             </div>
         </div>
     );

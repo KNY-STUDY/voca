@@ -1,9 +1,9 @@
-import { useHistory } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import useFetch from "../hooks/useFetch"
 
 export default function CreateDay () {
     const days = useFetch("http://localhost:3001/days")
-    const history = useHistory();
+    const navigate = useNavigate();
     
     function addDay(e) {
         fetch(`http://localhost:3001/days/`, {
@@ -13,17 +13,14 @@ export default function CreateDay () {
             },
             body : JSON.stringify({ 
                 day: days.length + 1, //현재날짜에 +1
-            
             }),
         }).then (res =>{
             if(res.ok){
                 alert("생성이 완료되었습니다.");
-                history.push(`/`)
+                navigate.push(`/`)
             }
         });
-
     }
-
 
     return (
         <div>

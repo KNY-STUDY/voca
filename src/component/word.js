@@ -58,7 +58,7 @@ export default function Word ( {word:  w}) {
     )
 }
 
-/*
+/**
 REST API
 
 Create : POST

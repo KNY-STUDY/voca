@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import useFetch from "../hooks/useFetch";
 
 export default function CreateWord() {
     const days = useFetch("http://localhost:3001/days");
-    const history = useHistory();
+    const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
 
     //단어추가
@@ -31,7 +31,7 @@ export default function CreateWord() {
             }).then (res =>{
                 if(res.ok){
                     alert("생성이 완료되었습니다.");
-                    history.push(`/day/${dayRef.current.value}`);
+                    navigate.push(`/day/${dayRef.current.value}`);
                     setIsLoading(false);
                 }
             });

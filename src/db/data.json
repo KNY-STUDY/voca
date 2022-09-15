@@ -11,22 +11,6 @@
     {
       "id": 3,
       "day": 3
-    },
-    {
-      "day": 4,
-      "id": 4
-    },
-    {
-      "day": 5,
-      "id": 5
-    },
-    {
-      "day": 6,
-      "id": 6
-    },
-    {
-      "day": 7,
-      "id": 7
     }
   ],
   "words": [
@@ -76,36 +60,8 @@
       "day": "1",
       "eng": "mouse",
       "kor": "쥐",
-      "isDone": false,
+      "isDone": true,
       "id": 15
-    },
-    {
-      "day": "4",
-      "eng": "monkey",
-      "kor": "원숭이",
-      "isDone": true,
-      "id": 16
-    },
-    {
-      "day": "3",
-      "eng": "mango",
-      "kor": "망고",
-      "isDone": false,
-      "id": 17
-    },
-    {
-      "day": "1",
-      "eng": "",
-      "kor": "",
-      "isDone": false,
-      "id": 18
-    },
-    {
-      "day": "7",
-      "eng": "bread",
-      "kor": "빵",
-      "isDone": true,
-      "id": 19
     }
   ]
 }
